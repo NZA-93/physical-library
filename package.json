@@ -1,0 +1,5 @@
+{
+  "name": "physical-library",
+  "private": true,
+  "type": "module"
+}

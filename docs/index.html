@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Physical library</title>
+    <meta name="description" content="Nicolò Zamariola’s physical music library.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23100e0c'/%3E%3C/svg%3E">
+  </head>
+  <body>
+    <a class="skip" href="#browse">Skip to the shelf</a>
+    <div class="wrap">
+      <header class="mast">
+        <p class="kicker">Physical library</p>
+        <h1>Nicolò Zamariola</h1>
+      </header>
+
+      <form class="toolbar" id="toolbar" action="#">
+        <label class="field search">
+          <span>Search</span>
+          <input id="q" type="search" name="q" autocomplete="off" spellcheck="false" placeholder="Artist, title, or performers">
+        </label>
+
+        <label class="field">
+          <span>Composer</span>
+          <select id="composer" name="composer"></select>
+        </label>
+
+        <label class="field">
+          <span>Label</span>
+          <select id="label" name="label"></select>
+        </label>
+
+        <fieldset class="format-field">
+          <legend>Format</legend>
+          <div class="format-options">
+            <label><input type="radio" name="format" value="" checked> All</label>
+            <label><input type="radio" name="format" value="CD"> CD</label>
+            <label><input type="radio" name="format" value="LP"> LP</label>
+          </div>
+        </fieldset>
+
+        <div class="shelf-bar">
+          <div class="views" role="group" aria-label="Browse">
+            <button type="button" data-view="artist" aria-pressed="true">By artist</button>
+            <button type="button" data-view="album" aria-pressed="false">By album</button>
+          </div>
+          <p id="count" class="count" aria-live="polite"></p>
+        </div>
+      </form>
+
+      <main id="browse" tabindex="-1">
+        <noscript>
+          <p class="empty">The shelf needs JavaScript. The catalogue is library.json.</p>
+        </noscript>
+      </main>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
