@@ -52,7 +52,7 @@ body {
 }
 
 .wrap {
-  width: min(42rem, calc(100% - 3rem));
+  width: min(46rem, calc(100% - 3rem));
   margin-inline: auto;
   padding-block: 4.75rem 7rem;
 }
@@ -65,7 +65,10 @@ body {
 .views button,
 .count,
 .artist-index a,
-.discs {
+.discs,
+.reference-links,
+.reviews,
+.colophon {
   font-family: var(--sans);
 }
 
@@ -246,6 +249,55 @@ h2.is-blank {
   border-top: 1px solid var(--line);
 }
 
+.recording-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.15rem;
+}
+
+.recording-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.cover {
+  width: 4.25rem;
+  height: 4.25rem;
+  flex: none;
+  background: #1c1a17;
+  border: 1px solid var(--line);
+}
+
+.cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reference-links,
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  margin: 0.45rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reference-links a,
+.reviews a {
+  color: var(--text);
+  font-size: 0.88rem;
+  text-underline-offset: 0.18rem;
+}
+
+.match-flag {
+  max-width: 62ch;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .recording-head {
   display: flex;
   flex-wrap: wrap;
@@ -272,7 +324,8 @@ h2.is-blank {
 .imprint,
 .discs,
 .notes,
-.uncertain {
+.uncertain,
+.match-flag {
   margin: 0.4rem 0 0;
 }
 
@@ -314,10 +367,27 @@ h2.is-blank {
   color: var(--muted);
 }
 
+.colophon {
+  margin-top: 3.5rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.colophon p {
+  margin: 0;
+}
+
 @media (max-width: 640px) {
   .wrap {
-    width: min(42rem, calc(100% - 2rem));
+    width: min(46rem, calc(100% - 2rem));
     padding-block: 2.75rem 4.5rem;
+  }
+
+  .cover {
+    width: 3.5rem;
+    height: 3.5rem;
   }
 
   .toolbar {

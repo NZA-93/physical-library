@@ -1,7 +1,13 @@
 import {
+  coverage,
+  coverageLine,
+  coverUrl,
   formatMarks,
   groupByArtist,
   isUncertain,
+  matchFlag,
+  referenceLinks,
+  reviewLinks,
   selectRows,
   sortByAlbum,
   uniqueSorted,
@@ -19,6 +25,7 @@ const state = {
 
 const browse = document.querySelector("#browse");
 const count = document.querySelector("#count");
+const coverageNode = document.querySelector("#coverage");
 const composerSelect = document.querySelector("#composer");
 const labelSelect = document.querySelector("#label");
 const searchInput = document.querySelector("#q");
@@ -68,6 +75,68 @@ function formatLine(row) {
   return node;
 }
 
+function coverFigure(row) {
+  const figure = document.createElement("div");
+  figure.className = "cover";
+  const url = coverUrl(row);
+  if (!url) {
+    figure.classList.add("is-placeholder");
+    return figure;
+  }
+  const image = document.createElement("img");
+  image.src = url;
+  image.alt = "";
+  image.loading = "lazy";
+  image.decoding = "async";
+  image.addEventListener("error", () => {
+    image.remove();
+    figure.classList.add("is-placeholder");
+  });
+  figure.append(image);
+  return figure;
+}
+
+function referencesBlock(row) {
+  const imprint = imprintLine(row);
+  const links = referenceLinks(row);
+  if (!imprint && !links.length) return null;
+  const block = document.createElement("div");
+  block.className = "references";
+  if (imprint) block.append(imprint);
+  if (links.length) {
+    const list = document.createElement("ul");
+    list.className = "reference-links";
+    for (const link of links) {
+      const item = document.createElement("li");
+      const anchor = document.createElement("a");
+      anchor.href = link.href;
+      anchor.textContent = link.label;
+      item.append(anchor);
+      list.append(item);
+    }
+    block.append(list);
+  }
+  return block;
+}
+
+function reviewsBlock(row) {
+  const links = reviewLinks(row);
+  if (!links.length) return null;
+  const list = document.createElement("ul");
+  list.className = "reviews";
+  for (const link of links) {
+    const item = document.createElement("li");
+    const anchor = document.createElement("a");
+    anchor.href = link.url;
+    anchor.textContent = link.source;
+    anchor.target = "_blank";
+    anchor.rel = "noopener noreferrer";
+    item.append(anchor);
+    list.append(item);
+  }
+  return list;
+}
+
 function recordingArticle(entry, view) {
   const { row, index } = entry;
   const article = document.createElement("article");
@@ -102,17 +171,28 @@ function recordingArticle(entry, view) {
   head.append(titleBlock);
   const format = formatLine(row);
   if (format) head.append(format);
-  article.append(head);
+
+  const copy = document.createElement("div");
+  copy.className = "recording-main";
+  copy.append(head);
 
   const performers = textLine("performers", row.performers);
-  if (performers) article.append(performers);
-  const imprint = imprintLine(row);
-  if (imprint) article.append(imprint);
+  if (performers) copy.append(performers);
+  const references = referencesBlock(row);
+  if (references) copy.append(references);
   const discs = discLine(row.disc_count);
-  if (discs) article.append(discs);
+  if (discs) copy.append(discs);
   const notes = textLine("notes", row.notes);
-  if (notes) article.append(notes);
+  if (notes) copy.append(notes);
+  const reviews = reviewsBlock(row);
+  if (reviews) copy.append(reviews);
+  const flag = textLine("match-flag", matchFlag(row));
+  if (flag) copy.append(flag);
 
+  const layout = document.createElement("div");
+  layout.className = "recording-layout";
+  layout.append(coverFigure(row), copy);
+  article.append(layout);
   return article;
 }
 
@@ -256,6 +336,7 @@ async function init() {
   const data = await response.json();
   if (!Array.isArray(data.rows)) throw new Error("The catalogue has no rows.");
   catalogue = data.rows;
+  coverageNode.textContent = coverageLine(coverage(catalogue));
   fillSelect(composerSelect, uniqueSorted(catalogue, "artist_or_composer"), "All");
   fillSelect(labelSelect, uniqueSorted(catalogue, "label"), "All");
   bind();

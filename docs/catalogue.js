@@ -100,3 +100,66 @@ export function uniqueSorted(rows, field) {
   }
   return [...values].sort(compareText);
 }
+
+export function presentString(value) {
+  return typeof value === "string" && value.trim() !== "" ? value : null;
+}
+
+export function coverUrl(row) {
+  return presentString(row.cover_url);
+}
+
+export function referenceLinks(row) {
+  const links = [];
+  const releaseId = presentString(row.musicbrainz_release_id);
+  if (releaseId) {
+    links.push({
+      label: "MusicBrainz release",
+      href: `https://musicbrainz.org/release/${encodeURIComponent(releaseId)}`,
+    });
+  }
+  const groupId = presentString(row.musicbrainz_release_group_id);
+  if (groupId) {
+    links.push({
+      label: "MusicBrainz release group",
+      href: `https://musicbrainz.org/release-group/${encodeURIComponent(groupId)}`,
+    });
+  }
+  const discogs = presentString(row.discogs_url);
+  if (discogs) links.push({ label: "Discogs", href: discogs });
+  return links;
+}
+
+export function reviewLinks(row) {
+  if (!Array.isArray(row.reviews)) return [];
+  const links = [];
+  for (const review of row.reviews) {
+    if (!review || typeof review !== "object") continue;
+    const source = presentString(review.source);
+    const url = presentString(review.url);
+    if (!source || !url) continue;
+    links.push({ source, url });
+  }
+  return links;
+}
+
+export function matchFlag(row) {
+  return presentString(row.match_flag);
+}
+
+export function coverage(rows) {
+  let covers = 0;
+  let references = 0;
+  let reviews = 0;
+  for (const row of rows) {
+    if (coverUrl(row)) covers += 1;
+    if (referenceLinks(row).length) references += 1;
+    if (reviewLinks(row).length) reviews += 1;
+  }
+  return { covers, references, reviews };
+}
+
+export function coverageLine({ covers, references, reviews }) {
+  const coverWord = covers === 1 ? "cover" : "covers";
+  return `${covers} ${coverWord} · ${references} with a reference · ${reviews} with a review`;
+}
