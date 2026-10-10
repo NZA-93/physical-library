@@ -133,7 +133,12 @@
     "match": "confident",
     "basis": "catalogue number 427 413-2 + title/artist overlap (Doktor Faust)"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "10100740",
+    "url": "https://www.discogs.com/release/10100740",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Deutsche Grammophon 427 413-2"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/f327490e-b0c0-4ecf-9bdc-ccc8f727d561/front-250"
@@ -142,7 +147,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "f327490e-b0c0-4ecf-9bdc-ccc8f727d561",
    "musicbrainz_release_group_id": "7215a263-33db-48f4-9548-4497501b6823",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/10100740",
    "cover_url": "https://coverartarchive.org/release/f327490e-b0c0-4ecf-9bdc-ccc8f727d561/front-250"
   },
   {
@@ -197,7 +202,12 @@
     "match": "confident",
     "basis": "catalogue number 8.660025-26 + title/artist overlap (Der fliegende Holländer); spine title unread, match on catalogue number only"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "6390192",
+    "url": "https://www.discogs.com/release/6390192",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Naxos 8.660025-26"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/321cb5ea-5b9f-41cf-bb7c-34b1108a6005/front-250"
@@ -206,7 +216,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "321cb5ea-5b9f-41cf-bb7c-34b1108a6005",
    "musicbrainz_release_group_id": "3de9a881-c11f-3abd-9644-af64d0340bad",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/6390192",
    "cover_url": "https://coverartarchive.org/release/321cb5ea-5b9f-41cf-bb7c-34b1108a6005/front-250"
   },
   {
@@ -222,15 +232,29 @@
    "confidence": "uncertain",
    "notes": "Catalogue begins 8.660025; rest hidden. See adjacent Naxos 8.660025-26",
    "id": "r008",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": "321cb5ea-5b9f-41cf-bb7c-34b1108a6005",
+    "release_group_id": "3de9a881-c11f-3abd-9644-af64d0340bad",
+    "url": "https://musicbrainz.org/release/321cb5ea-5b9f-41cf-bb7c-34b1108a6005",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Der fliegende Holländer / richard wagner richard wagner alfred muff alfred muff ingrid); same release as r007, may be a duplicate case"
+   },
+   "discogs": {
+    "release_id": "6390192",
+    "url": "https://www.discogs.com/release/6390192",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Naxos 8.660025-26"
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/321cb5ea-5b9f-41cf-bb7c-34b1108a6005/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "match_flag": null,
+   "musicbrainz_release_id": "321cb5ea-5b9f-41cf-bb7c-34b1108a6005",
+   "musicbrainz_release_group_id": "3de9a881-c11f-3abd-9644-af64d0340bad",
+   "discogs_url": "https://www.discogs.com/release/6390192",
+   "cover_url": "https://coverartarchive.org/release/321cb5ea-5b9f-41cf-bb7c-34b1108a6005/front-250"
   },
   {
    "artist_or_composer": "Richard Strauss",
@@ -468,7 +492,12 @@
     "match": "confident",
     "basis": "catalogue number LSO0782 + title/artist overlap (Das Paradies und die Peri)"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "8584321",
+    "url": "https://www.discogs.com/release/8584321",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno LSO Live LSO0782"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/fb7d3936-5554-4736-8763-46e6bd9a907f/front-250"
@@ -477,7 +506,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "fb7d3936-5554-4736-8763-46e6bd9a907f",
    "musicbrainz_release_group_id": "b73933cc-6353-44be-b245-12fb2041ce1d",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/8584321",
    "cover_url": "https://coverartarchive.org/release/fb7d3936-5554-4736-8763-46e6bd9a907f/front-250"
   },
   {
@@ -516,15 +545,24 @@
    "confidence": "read",
    "notes": "The Victor Opera Series. Suffix (3) is on the catalogue; disc count not printed as words",
    "id": "r020",
-   "musicbrainz": null,
+   "musicbrainz": {
+    "release_id": "5d644e91-56fa-48ef-a86c-81b652cff32a",
+    "release_group_id": "519223a3-1ed6-4c24-9b91-8167c2f633a3",
+    "url": "https://musicbrainz.org/release/5d644e91-56fa-48ef-a86c-81b652cff32a",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Norma / vincenzo bellini vincenzo bellini montserrat caballé montser)"
+   },
    "discogs": null,
-   "cover": null,
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/5d644e91-56fa-48ef-a86c-81b652cff32a/front-250"
+   },
    "reviews": [],
-   "match_flag": "no MusicBrainz release with this catalogue number and matching title/artist",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
+   "match_flag": "Discogs page linked from MusicBrainz lists GD86502(3), spine reads GD86602(3); Discogs link left out",
+   "musicbrainz_release_id": "5d644e91-56fa-48ef-a86c-81b652cff32a",
+   "musicbrainz_release_group_id": "519223a3-1ed6-4c24-9b91-8167c2f633a3",
    "discogs_url": null,
-   "cover_url": null
+   "cover_url": "https://coverartarchive.org/release/5d644e91-56fa-48ef-a86c-81b652cff32a/front-250"
   },
   {
    "artist_or_composer": "Tchaikovsky",
@@ -569,7 +607,12 @@
     "match": "confident",
     "basis": "catalogue number GD87767(2) + title/artist overlap (Die tote Stadt)"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "9035497",
+    "url": "https://www.discogs.com/release/9035497",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms RCA catno GD87767(2)"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release-group/e198178c-dd48-466e-8168-e54e50fcd8cd/front-250"
@@ -578,7 +621,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "60aefa6d-76a1-4271-9960-572ad3de0a7f",
    "musicbrainz_release_group_id": "e198178c-dd48-466e-8168-e54e50fcd8cd",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/9035497",
    "cover_url": "https://coverartarchive.org/release-group/e198178c-dd48-466e-8168-e54e50fcd8cd/front-250"
   },
   {
@@ -594,15 +637,29 @@
    "confidence": "read",
    "notes": "RCA Victor Opera Series",
    "id": "r023",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": "a2e26db2-de7f-4467-89f8-a124827a56d3",
+    "release_group_id": "98ced80e-e560-46a6-b2c3-7dba33f555ef",
+    "url": "https://musicbrainz.org/release/a2e26db2-de7f-4467-89f8-a124827a56d3",
+    "match": "confident",
+    "basis": "catalogue number GD86182(2) (normalised) + title (Julius Caesar)"
+   },
+   "discogs": {
+    "release_id": "8096627",
+    "url": "https://www.discogs.com/release/8096627",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms RCA catno GD86182(2)"
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/a2e26db2-de7f-4467-89f8-a124827a56d3/front-250"
+   },
    "reviews": [],
-   "match_flag": "no MusicBrainz release with this catalogue number and matching title/artist",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "match_flag": null,
+   "musicbrainz_release_id": "a2e26db2-de7f-4467-89f8-a124827a56d3",
+   "musicbrainz_release_group_id": "98ced80e-e560-46a6-b2c3-7dba33f555ef",
+   "discogs_url": "https://www.discogs.com/release/8096627",
+   "cover_url": "https://coverartarchive.org/release/a2e26db2-de7f-4467-89f8-a124827a56d3/front-250"
   },
   {
    "artist_or_composer": "Donizetti",
@@ -656,7 +713,12 @@
     "match": "confident",
     "basis": "catalogue number 434 599-2 + title/artist overlap (Der Fliegende Holländer)"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "634995",
+    "url": "https://www.discogs.com/release/634995",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Philips 434 599-2"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/6e80ece4-c8c6-474c-8662-857df52f0f11/front-250"
@@ -665,7 +727,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "6e80ece4-c8c6-474c-8662-857df52f0f11",
    "musicbrainz_release_group_id": "321975e3-58bb-4397-83d0-954fc2eaceb8",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/634995",
    "cover_url": "https://coverartarchive.org/release/6e80ece4-c8c6-474c-8662-857df52f0f11/front-250"
   },
   {
@@ -681,15 +743,24 @@
    "confidence": "read",
    "notes": "CD",
    "id": "r026",
-   "musicbrainz": null,
+   "musicbrainz": {
+    "release_id": null,
+    "release_group_id": "f1abca0e-f84b-47dc-9917-1f7daaee633c",
+    "url": "https://musicbrainz.org/release-group/f1abca0e-f84b-47dc-9917-1f7daaee633c",
+    "match": "confident",
+    "basis": "title + performers + label; several pressings, one release group (Guillaume Tell / gioachino rossini gioachino rossini bacquier gabriel bacquie)"
+   },
    "discogs": null,
-   "cover": null,
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/f1abca0e-f84b-47dc-9917-1f7daaee633c/front-250"
+   },
    "reviews": [],
-   "match_flag": "no MusicBrainz release with this catalogue number and matching title/artist",
+   "match_flag": null,
    "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
+   "musicbrainz_release_group_id": "f1abca0e-f84b-47dc-9917-1f7daaee633c",
    "discogs_url": null,
-   "cover_url": null
+   "cover_url": "https://coverartarchive.org/release-group/f1abca0e-f84b-47dc-9917-1f7daaee633c/front-250"
   },
   {
    "artist_or_composer": "Puccini",
@@ -711,16 +782,27 @@
     "match": "confident",
     "basis": "catalogue number CDS 7 47971 8 + title/artist overlap (Turandot)"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "9085300",
+    "url": "https://www.discogs.com/release/9085300",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno EMI CDS 7 47971 8"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/1995744d-4b27-4963-8c37-baa65c370850/front-250"
    },
-   "reviews": [],
+   "reviews": [
+    {
+     "source": "Gramophone",
+     "url": "https://www.gramophone.co.uk/reviews/puccini-turandot-9",
+     "title": "Puccini Turandot (Callas, Serafin; EMI CDS 7 47971-8), Nov 1987"
+    }
+   ],
    "match_flag": null,
    "musicbrainz_release_id": "1995744d-4b27-4963-8c37-baa65c370850",
    "musicbrainz_release_group_id": "e96b119f-8ef6-3f81-817a-ae6a2a3f3b36",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/9085300",
    "cover_url": "https://coverartarchive.org/release/1995744d-4b27-4963-8c37-baa65c370850/front-250"
   },
   {
@@ -786,7 +868,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (9)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -805,15 +887,29 @@
    "confidence": "read",
    "notes": "EMI Classics. Catalogue number not readable",
    "id": "r031",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": "4b99ee24-7deb-4f07-a9cb-0d99112a86a2",
+    "release_group_id": "201bdae4-a427-41dc-bd20-8d051aaae5f2",
+    "url": "https://musicbrainz.org/release/4b99ee24-7deb-4f07-a9cb-0d99112a86a2",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Roméo et Juliette / gounod charles gounod corelli franco corelli freni mirella f)"
+   },
+   "discogs": {
+    "release_id": "11076582",
+    "url": "https://www.discogs.com/release/11076582",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno EMI Classics 7243 5 65290 2 1, EMI Classics CMS 5 65290 2"
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/4b99ee24-7deb-4f07-a9cb-0d99112a86a2/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "match_flag": null,
+   "musicbrainz_release_id": "4b99ee24-7deb-4f07-a9cb-0d99112a86a2",
+   "musicbrainz_release_group_id": "201bdae4-a427-41dc-bd20-8d051aaae5f2",
+   "discogs_url": "https://www.discogs.com/release/11076582",
+   "cover_url": "https://coverartarchive.org/release/4b99ee24-7deb-4f07-a9cb-0d99112a86a2/front-250"
   },
   {
    "artist_or_composer": "Mozart",
@@ -832,7 +928,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (2)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -851,15 +947,29 @@
    "confidence": "read",
    "notes": "CD. Facing panel reads Great Recordings of the Century; treated as the same package. Catalogue not readable",
    "id": "r033",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": null,
+    "release_group_id": "18eb627e-87ff-30fe-a850-2c276f382981",
+    "url": "https://musicbrainz.org/release-group/18eb627e-87ff-30fe-a850-2c276f382981",
+    "match": "confident",
+    "basis": "title + performers + label; several pressings, one release group (Falstaff / verdi giuseppe verdi gobbi tito gobbi schwarzkopf elisabeth )"
+   },
+   "discogs": {
+    "master_id": "604801",
+    "url": "https://www.discogs.com/master/604801",
+    "match": "confident",
+    "basis": "MusicBrainz release-group url relation (master); Discogs master title \"Falstaff\""
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/18eb627e-87ff-30fe-a850-2c276f382981/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": null,
    "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "musicbrainz_release_group_id": "18eb627e-87ff-30fe-a850-2c276f382981",
+   "discogs_url": "https://www.discogs.com/master/604801",
+   "cover_url": "https://coverartarchive.org/release-group/18eb627e-87ff-30fe-a850-2c276f382981/front-250"
   },
   {
    "artist_or_composer": "Donizetti",
@@ -874,15 +984,29 @@
    "confidence": "uncertain",
    "notes": "Catalogue begins CMS 7 6363 and is cropped",
    "id": "r034",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": null,
+    "release_group_id": "11818991-1482-482c-a60d-2afff88d2a08",
+    "url": "https://musicbrainz.org/release-group/11818991-1482-482c-a60d-2afff88d2a08",
+    "match": "confident",
+    "basis": "title + performers + label; several pressings, one release group (Lucia di Lammermoor / donizetti gaetano donizetti maria callas maria callas giusep)"
+   },
+   "discogs": {
+    "master_id": "650811",
+    "url": "https://www.discogs.com/master/650811",
+    "match": "confident",
+    "basis": "MusicBrainz release-group url relation (master); Discogs master title \"Lucia Di Lammermoor [Live 1955 Recording]\""
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/11818991-1482-482c-a60d-2afff88d2a08/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": null,
    "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "musicbrainz_release_group_id": "11818991-1482-482c-a60d-2afff88d2a08",
+   "discogs_url": "https://www.discogs.com/master/650811",
+   "cover_url": "https://coverartarchive.org/release-group/11818991-1482-482c-a60d-2afff88d2a08/front-250"
   },
   {
    "artist_or_composer": "Puccini",
@@ -901,7 +1025,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (3)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -1016,7 +1140,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (3)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -1065,7 +1189,12 @@
     "match": "confident",
     "basis": "catalogue number 425 531-2 + title/artist overlap (Madama Butterfly); spine title unread, match on catalogue number only"
    },
-   "discogs": null,
+   "discogs": {
+    "master_id": "637714",
+    "url": "https://www.discogs.com/master/637714",
+    "match": "confident",
+    "basis": "MusicBrainz release-group url relation (master); Discogs master title \"Madama Butterfly\""
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/946feb9c-6b01-4138-b720-f4dcf20c05d0/front-250"
@@ -1074,7 +1203,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "946feb9c-6b01-4138-b720-f4dcf20c05d0",
    "musicbrainz_release_group_id": "24623ec9-e721-36fa-8733-519ceba90ad7",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/master/637714",
    "cover_url": "https://coverartarchive.org/release/946feb9c-6b01-4138-b720-f4dcf20c05d0/front-250"
   },
   {
@@ -1094,7 +1223,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (2)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -1143,7 +1272,12 @@
     "match": "confident",
     "basis": "catalogue number 421 240-2 + title/artist overlap (Faust); spine title unread, match on catalogue number only"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "11802062",
+    "url": "https://www.discogs.com/release/11802062",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Decca 421 240-2"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release-group/9ae9d6ee-6b93-4db9-9d41-d0009778a221/front-250"
@@ -1152,7 +1286,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "26eee39a-ec4c-4845-9cb4-9d541b3ab11f",
    "musicbrainz_release_group_id": "9ae9d6ee-6b93-4db9-9d41-d0009778a221",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/11802062",
    "cover_url": "https://coverartarchive.org/release-group/9ae9d6ee-6b93-4db9-9d41-d0009778a221/front-250"
   },
   {
@@ -1172,7 +1306,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (6)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -1214,15 +1348,24 @@
    "confidence": "uncertain",
    "notes": "Only the end of the spine is in frame; performers and number not read",
    "id": "r048",
-   "musicbrainz": null,
+   "musicbrainz": {
+    "release_id": "f9a91f62-0014-4e47-8c98-fae64f5f979c",
+    "release_group_id": "ea915f81-3a13-4737-bd15-6ab7f728c278",
+    "url": "https://musicbrainz.org/release/f9a91f62-0014-4e47-8c98-fae64f5f979c",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Giordano: Fedora / Zandonai: Francesca da Rimini (highlights) / giordano umberto giordano zandonai riccardo zandonai magda o); Decca Fedora coupled with Zandonai highlights, spine read title only"
+   },
    "discogs": null,
-   "cover": null,
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/f9a91f62-0014-4e47-8c98-fae64f5f979c/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
+   "match_flag": null,
+   "musicbrainz_release_id": "f9a91f62-0014-4e47-8c98-fae64f5f979c",
+   "musicbrainz_release_group_id": "ea915f81-3a13-4737-bd15-6ab7f728c278",
    "discogs_url": null,
-   "cover_url": null
+   "cover_url": "https://coverartarchive.org/release/f9a91f62-0014-4e47-8c98-fae64f5f979c/front-250"
   },
   {
    "artist_or_composer": "Queen",
@@ -1241,7 +1384,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (4)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -1287,7 +1430,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (2)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -1313,7 +1456,12 @@
     "match": "confident",
     "basis": "catalogue number J33J 20005 + title/artist overlap (Together Again! Live At The Montreux Jazz Festival '82); spine title unread, match on catalogue number only"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "7297286",
+    "url": "https://www.discogs.com/release/7297286",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Pablo Live J33J 20005"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/12e660b4-538c-4b76-83ed-9c99f3f71583/front-250"
@@ -1322,7 +1470,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "12e660b4-538c-4b76-83ed-9c99f3f71583",
    "musicbrainz_release_group_id": "cb74669c-0850-3c0d-8fec-a8f2f40037fb",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/7297286",
    "cover_url": "https://coverartarchive.org/release/12e660b4-538c-4b76-83ed-9c99f3f71583/front-250"
   },
   {
@@ -1338,14 +1486,25 @@
    "confidence": "read",
    "notes": "Spine reads Verdi's Mood by Cinzia Tedesco",
    "id": "r053",
-   "musicbrainz": null,
-   "discogs": null,
+   "musicbrainz": {
+    "release_id": "792b4a11-edfb-4783-9f9b-3ddfb654f49e",
+    "release_group_id": "92e6bba1-6160-4449-8476-6e08f6db096a",
+    "url": "https://musicbrainz.org/release/792b4a11-edfb-4783-9f9b-3ddfb654f49e",
+    "match": "confident",
+    "basis": "title + performers, single release (Verdi's Mood - From Giuseppe Verdi To Jazz / cinzia tedesco cinzia tedesco)"
+   },
+   "discogs": {
+    "release_id": "9278785",
+    "url": "https://www.discogs.com/release/9278785",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Sony Classical 88875182932"
+   },
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
+   "match_flag": null,
+   "musicbrainz_release_id": "792b4a11-edfb-4783-9f9b-3ddfb654f49e",
+   "musicbrainz_release_group_id": "92e6bba1-6160-4449-8476-6e08f6db096a",
+   "discogs_url": "https://www.discogs.com/release/9278785",
    "cover_url": null
   },
   {
@@ -1391,7 +1550,12 @@
     "match": "confident",
     "basis": "catalogue number ENJ-9459 2 + title/artist overlap (Bar Jazz)"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "1140321",
+    "url": "https://www.discogs.com/release/1140321",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Enja Records ENJ-9459 2"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/5b7d7acf-288e-4b9d-8d01-ff09f2456b01/front-250"
@@ -1400,7 +1564,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "5b7d7acf-288e-4b9d-8d01-ff09f2456b01",
    "musicbrainz_release_group_id": "64443e32-6de6-4e1b-b6dc-22325e03b7cd",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/1140321",
    "cover_url": "https://coverartarchive.org/release/5b7d7acf-288e-4b9d-8d01-ff09f2456b01/front-250"
   },
   {
@@ -1416,15 +1580,29 @@
    "confidence": "read",
    "notes": "Catalogue number is below the frame",
    "id": "r056",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": "fdb12a23-a501-4116-9347-49b922bedfb0",
+    "release_group_id": "f17ff2c7-a4f3-3a3c-b174-afcc326752f6",
+    "url": "https://musicbrainz.org/release/fdb12a23-a501-4116-9347-49b922bedfb0",
+    "match": "confident",
+    "basis": "title + performers + label, single release (One Alone: Solo Piano / dave brubeck dave brubeck)"
+   },
+   "discogs": {
+    "release_id": "621703",
+    "url": "https://www.discogs.com/release/621703",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Telarc Jazz CD-83510"
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/f17ff2c7-a4f3-3a3c-b174-afcc326752f6/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "match_flag": null,
+   "musicbrainz_release_id": "fdb12a23-a501-4116-9347-49b922bedfb0",
+   "musicbrainz_release_group_id": "f17ff2c7-a4f3-3a3c-b174-afcc326752f6",
+   "discogs_url": "https://www.discogs.com/release/621703",
+   "cover_url": "https://coverartarchive.org/release-group/f17ff2c7-a4f3-3a3c-b174-afcc326752f6/front-250"
   },
   {
    "artist_or_composer": "Janis Siegel",
@@ -1439,14 +1617,25 @@
    "confidence": "read",
    "notes": "Catalogue number is below the frame",
    "id": "r057",
-   "musicbrainz": null,
-   "discogs": null,
+   "musicbrainz": {
+    "release_id": "97a492ec-f842-4cba-9ceb-4bf39632de25",
+    "release_group_id": "77a6cfa7-a203-3a4d-a00d-d043b9304c6d",
+    "url": "https://musicbrainz.org/release/97a492ec-f842-4cba-9ceb-4bf39632de25",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Friday Night Special / janis siegel janis siegel)"
+   },
+   "discogs": {
+    "release_id": "6454264",
+    "url": "https://www.discogs.com/release/6454264",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Telarc Jazz CD-83566"
+   },
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
+   "match_flag": null,
+   "musicbrainz_release_id": "97a492ec-f842-4cba-9ceb-4bf39632de25",
+   "musicbrainz_release_group_id": "77a6cfa7-a203-3a4d-a00d-d043b9304c6d",
+   "discogs_url": "https://www.discogs.com/release/6454264",
    "cover_url": null
   },
   {
@@ -1462,15 +1651,24 @@
    "confidence": "read",
    "notes": "Catalogue number is below the frame",
    "id": "r058",
-   "musicbrainz": null,
+   "musicbrainz": {
+    "release_id": "e744c25d-cbdc-40a8-9232-2ba9464a3046",
+    "release_group_id": "21083b14-723d-471e-b47d-0fc935e85625",
+    "url": "https://musicbrainz.org/release/e744c25d-cbdc-40a8-9232-2ba9464a3046",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Travelin' Light / sam pilafian & friends sam pilafian)"
+   },
    "discogs": null,
-   "cover": null,
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/e744c25d-cbdc-40a8-9232-2ba9464a3046/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
+   "match_flag": null,
+   "musicbrainz_release_id": "e744c25d-cbdc-40a8-9232-2ba9464a3046",
+   "musicbrainz_release_group_id": "21083b14-723d-471e-b47d-0fc935e85625",
    "discogs_url": null,
-   "cover_url": null
+   "cover_url": "https://coverartarchive.org/release/e744c25d-cbdc-40a8-9232-2ba9464a3046/front-250"
   },
   {
    "artist_or_composer": "Chet Baker",
@@ -1492,7 +1690,12 @@
     "match": "confident",
     "basis": "catalogue number ENJA 5097 2 + title/artist overlap (My Favorite Songs: The Last Great Concert)"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "7798709",
+    "url": "https://www.discogs.com/release/7798709",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Enja Records ENJA 5097 2, Enja Records 5097 2"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/7650c017-4aa8-443f-92fd-3c5074c74c89/front-250"
@@ -1501,7 +1704,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "7650c017-4aa8-443f-92fd-3c5074c74c89",
    "musicbrainz_release_group_id": "74c4efa5-ea0e-410d-8271-5378ea4ad31e",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/7798709",
    "cover_url": "https://coverartarchive.org/release/7650c017-4aa8-443f-92fd-3c5074c74c89/front-250"
   },
   {
@@ -1524,7 +1727,12 @@
     "match": "confident",
     "basis": "catalogue number CD 7243 8 34348 2 4 + title/artist overlap (Temptation)"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "973056",
+    "url": "https://www.discogs.com/release/973056",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Metro Blue 7243 8 34348 2 4, Metro Blue CD 7243 8 34348 2 4"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/6880408b-af32-4c3f-95cd-b5faf05b9e88/front-250"
@@ -1533,7 +1741,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "6880408b-af32-4c3f-95cd-b5faf05b9e88",
    "musicbrainz_release_group_id": "2ee9c886-5bca-3bac-8097-e7bc496341ed",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/973056",
    "cover_url": "https://coverartarchive.org/release/6880408b-af32-4c3f-95cd-b5faf05b9e88/front-250"
   },
   {
@@ -1595,15 +1803,30 @@
    "confidence": "read",
    "notes": "Catalogue number cropped",
    "id": "r063",
-   "musicbrainz": null,
+   "musicbrainz": {
+    "release_id": null,
+    "release_group_id": "3e226fd3-2ec0-32ef-86a2-08d4bcb331b4",
+    "url": "https://musicbrainz.org/release-group/3e226fd3-2ec0-32ef-86a2-08d4bcb331b4",
+    "match": "confident",
+    "basis": "title + performers + label; several pressings, one release group (The Carnegie Hall Concert / keith jarrett keith jarrett)"
+   },
    "discogs": null,
-   "cover": null,
-   "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/3e226fd3-2ec0-32ef-86a2-08d4bcb331b4/front-250"
+   },
+   "reviews": [
+    {
+     "source": "ECM Reviews (Between Sound and Space)",
+     "url": "https://ecmreviews.com/2013/11/22/jarrett-carnegie/",
+     "title": "Keith Jarrett: The Carnegie Hall Concert (ECM 1989/90)"
+    }
+   ],
+   "match_flag": null,
    "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
+   "musicbrainz_release_group_id": "3e226fd3-2ec0-32ef-86a2-08d4bcb331b4",
    "discogs_url": null,
-   "cover_url": null
+   "cover_url": "https://coverartarchive.org/release-group/3e226fd3-2ec0-32ef-86a2-08d4bcb331b4/front-250"
   },
   {
    "artist_or_composer": "Keith Jarrett",
@@ -1625,16 +1848,27 @@
     "match": "confident",
     "basis": "catalogue number ECM 1481 + title/artist overlap (Vienna Concert)"
    },
-   "discogs": null,
+   "discogs": {
+    "master_id": "861832",
+    "url": "https://www.discogs.com/master/861832",
+    "match": "confident",
+    "basis": "MusicBrainz release-group url relation (master); Discogs master title \"Vienna Concert\""
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/af514041-d09c-40e6-b679-3f5fcfe184fd/front-250"
    },
-   "reviews": [],
+   "reviews": [
+    {
+     "source": "ECM Reviews (Between Sound and Space)",
+     "url": "https://ecmreviews.com/2012/06/15/vienna-concert/",
+     "title": "Keith Jarrett: Vienna Concert (ECM 1481)"
+    }
+   ],
    "match_flag": null,
    "musicbrainz_release_id": "af514041-d09c-40e6-b679-3f5fcfe184fd",
    "musicbrainz_release_group_id": "e9daa13f-3d75-3b98-baed-8f45986badf8",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/master/861832",
    "cover_url": "https://coverartarchive.org/release/af514041-d09c-40e6-b679-3f5fcfe184fd/front-250"
   },
   {
@@ -1703,16 +1937,27 @@
     "match": "confident",
     "basis": "catalogue number ECM 1640 + title/artist overlap (La Scala)"
    },
-   "discogs": null,
+   "discogs": {
+    "master_id": "259278",
+    "url": "https://www.discogs.com/master/259278",
+    "match": "confident",
+    "basis": "MusicBrainz release-group url relation (master); Discogs master title \"La Scala\""
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/1de21fdd-f253-4626-9636-a32447aea0d1/front-250"
    },
-   "reviews": [],
+   "reviews": [
+    {
+     "source": "ECM Reviews (Between Sound and Space)",
+     "url": "https://ecmreviews.com/2013/02/20/la-scala/",
+     "title": "Keith Jarrett: La Scala (ECM 1640)"
+    }
+   ],
    "match_flag": null,
    "musicbrainz_release_id": "1de21fdd-f253-4626-9636-a32447aea0d1",
    "musicbrainz_release_group_id": "52ca368a-a71f-3627-b65c-0b4055857d20",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/master/259278",
    "cover_url": "https://coverartarchive.org/release/1de21fdd-f253-4626-9636-a32447aea0d1/front-250"
   },
   {
@@ -1755,7 +2000,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (5)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -1797,15 +2042,29 @@
    "confidence": "read",
    "notes": "Also numbered 476 3873",
    "id": "r071",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": null,
+    "release_group_id": "21525fce-629f-393a-a34c-2f41ef78508d",
+    "url": "https://musicbrainz.org/release-group/21525fce-629f-393a-a34c-2f41ef78508d",
+    "match": "confident",
+    "basis": "title + performers + label; several pressings, one release group (Tabula Rasa / arvo pärt arvo pärt)"
+   },
+   "discogs": {
+    "master_id": "68271",
+    "url": "https://www.discogs.com/master/68271",
+    "match": "confident",
+    "basis": "MusicBrainz release-group url relation (master); Discogs master title \"Tabula Rasa\""
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/21525fce-629f-393a-a34c-2f41ef78508d/front-250"
+   },
    "reviews": [],
-   "match_flag": "no MusicBrainz release with this catalogue number and matching title/artist",
+   "match_flag": null,
    "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "musicbrainz_release_group_id": "21525fce-629f-393a-a34c-2f41ef78508d",
+   "discogs_url": "https://www.discogs.com/master/68271",
+   "cover_url": "https://coverartarchive.org/release-group/21525fce-629f-393a-a34c-2f41ef78508d/front-250"
   },
   {
    "artist_or_composer": "Youn Sun Nah",
@@ -1869,7 +2128,13 @@
    "musicbrainz": null,
    "discogs": null,
    "cover": null,
-   "reviews": [],
+   "reviews": [
+    {
+     "source": "BBC Music",
+     "url": "https://www.bbc.co.uk/music/reviews/cg3n/",
+     "title": "E.S.T. Viaticum Review"
+    }
+   ],
    "match_flag": "no MusicBrainz release with this catalogue number and matching title/artist",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
@@ -1916,7 +2181,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (35)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -1942,7 +2207,12 @@
     "match": "confident",
     "basis": "catalogue number 205482 + title/artist overlap (Manuscrit d'Uppsala 1667 - La passion selon St Matthieu)"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "14858898",
+    "url": "https://www.discogs.com/release/14858898",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Accord 205482"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/79e64075-c997-480b-abba-d386d75ce0f8/front-250"
@@ -1951,7 +2221,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "79e64075-c997-480b-abba-d386d75ce0f8",
    "musicbrainz_release_group_id": "634bf450-9d66-4a05-a95d-62b15f881a0d",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/14858898",
    "cover_url": "https://coverartarchive.org/release/79e64075-c997-480b-abba-d386d75ce0f8/front-250"
   },
   {
@@ -1971,7 +2241,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (9)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -1990,15 +2260,24 @@
    "confidence": "read",
    "notes": "Catalogue number below the frame",
    "id": "r079",
-   "musicbrainz": null,
+   "musicbrainz": {
+    "release_id": "73fa0ea5-4a7a-4450-86ca-04bb96150468",
+    "release_group_id": "5ce68879-f2a6-4ee3-bbe8-1e108b07388c",
+    "url": "https://musicbrainz.org/release/73fa0ea5-4a7a-4450-86ca-04bb96150468",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Symphony no. 5 in D major / Fantasia on a Theme of Thomas Tallis / vaughan williams ralph vaughan williams royal philharmonic o)"
+   },
    "discogs": null,
-   "cover": null,
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/73fa0ea5-4a7a-4450-86ca-04bb96150468/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
+   "match_flag": null,
+   "musicbrainz_release_id": "73fa0ea5-4a7a-4450-86ca-04bb96150468",
+   "musicbrainz_release_group_id": "5ce68879-f2a6-4ee3-bbe8-1e108b07388c",
    "discogs_url": null,
-   "cover_url": null
+   "cover_url": "https://coverartarchive.org/release/73fa0ea5-4a7a-4450-86ca-04bb96150468/front-250"
   },
   {
    "artist_or_composer": "Tchaikovsky",
@@ -2017,7 +2296,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (2)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2063,7 +2342,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (3)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2109,7 +2388,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no MusicBrainz release with this catalogue number and matching title/artist",
+   "match_flag": "several MusicBrainz release groups fit title/performers (2)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2128,15 +2407,29 @@
    "confidence": "uncertain",
    "notes": "Catalogue begins SMK and is cropped",
    "id": "r085",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": "e994bb08-92f7-4028-80b0-076b7b6af3b6",
+    "release_group_id": "cb7fa230-bdd8-4cbe-9dcc-38e870bcc4c1",
+    "url": "https://musicbrainz.org/release/e994bb08-92f7-4028-80b0-076b7b6af3b6",
+    "match": "confident",
+    "basis": "title + performers, single release (Concerto for Piano and Orchestra no. 1 in B-flat minor, op. 23 / Concerto for Violin and Orchestra in D major, op. 35 / tchaikovsky пётр ильич чайковский new york philharmonic new )"
+   },
+   "discogs": {
+    "master_id": "1409642",
+    "url": "https://www.discogs.com/master/1409642",
+    "match": "confident",
+    "basis": "MusicBrainz release-group url relation (master); Discogs master title \"Piano Concerto, Violin Concerto\""
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/e994bb08-92f7-4028-80b0-076b7b6af3b6/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "match_flag": null,
+   "musicbrainz_release_id": "e994bb08-92f7-4028-80b0-076b7b6af3b6",
+   "musicbrainz_release_group_id": "cb7fa230-bdd8-4cbe-9dcc-38e870bcc4c1",
+   "discogs_url": "https://www.discogs.com/master/1409642",
+   "cover_url": "https://coverartarchive.org/release/e994bb08-92f7-4028-80b0-076b7b6af3b6/front-250"
   },
   {
    "artist_or_composer": "Bach",
@@ -2155,7 +2448,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (2)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2174,15 +2467,24 @@
    "confidence": "read",
    "notes": "Catalogue below the frame",
    "id": "r087",
-   "musicbrainz": null,
+   "musicbrainz": {
+    "release_id": null,
+    "release_group_id": "e9d17dfc-7554-45d0-b6da-d7567b68acc4",
+    "url": "https://musicbrainz.org/release-group/e9d17dfc-7554-45d0-b6da-d7567b68acc4",
+    "match": "confident",
+    "basis": "title + performers; several pressings, one release group (Piano Concertos. no. 2 & no. 3 / rachmaninov сергей васильевич рахманинов philippe entremont )"
+   },
    "discogs": null,
-   "cover": null,
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/e9d17dfc-7554-45d0-b6da-d7567b68acc4/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": null,
    "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
+   "musicbrainz_release_group_id": "e9d17dfc-7554-45d0-b6da-d7567b68acc4",
    "discogs_url": null,
-   "cover_url": null
+   "cover_url": "https://coverartarchive.org/release-group/e9d17dfc-7554-45d0-b6da-d7567b68acc4/front-250"
   },
   {
    "artist_or_composer": "Mozart",
@@ -2224,7 +2526,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (16)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2243,15 +2545,24 @@
    "confidence": "uncertain",
    "notes": "Catalogue begins 414 and is cropped",
    "id": "r090",
-   "musicbrainz": null,
+   "musicbrainz": {
+    "release_id": null,
+    "release_group_id": "0a1eb1b0-5f83-3fcc-8e7e-811ec4f60d5d",
+    "url": "https://musicbrainz.org/release-group/0a1eb1b0-5f83-3fcc-8e7e-811ec4f60d5d",
+    "match": "confident",
+    "basis": "title + performers + label; several pressings, one release group (Pictures at an Exhibition: original piano version / Ashkenazy orchestral version / mussorgsky модест петрович мусоргский philharmonia orchestra)"
+   },
    "discogs": null,
-   "cover": null,
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/0a1eb1b0-5f83-3fcc-8e7e-811ec4f60d5d/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": null,
    "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
+   "musicbrainz_release_group_id": "0a1eb1b0-5f83-3fcc-8e7e-811ec4f60d5d",
    "discogs_url": null,
-   "cover_url": null
+   "cover_url": "https://coverartarchive.org/release-group/0a1eb1b0-5f83-3fcc-8e7e-811ec4f60d5d/front-250"
   },
   {
    "artist_or_composer": "Saint-Saëns",
@@ -2316,7 +2627,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no MusicBrainz release with this catalogue number and matching title/artist",
+   "match_flag": "MusicBrainz hit is D'Avalos/Philharmonia Clementi, not Martucci; no Martucci match",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2335,15 +2646,29 @@
    "confidence": "read",
    "notes": "Catalogue number below the crop",
    "id": "r094",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": null,
+    "release_group_id": "fcc189b5-d624-34e0-9ccc-f57979601a14",
+    "url": "https://musicbrainz.org/release-group/fcc189b5-d624-34e0-9ccc-f57979601a14",
+    "match": "confident",
+    "basis": "title + performers + label; several pressings, one release group (Klavierkonzert no. 1 / tschaikowsky пётр ильич чайковский yevgeny kissin евгений ки)"
+   },
+   "discogs": {
+    "master_id": "345802",
+    "url": "https://www.discogs.com/master/345802",
+    "match": "confident",
+    "basis": "MusicBrainz release-group url relation (master); Discogs master title \"Klavierkonzert No. 1 = Piano Concerto = Concerto Pour Piano\""
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/fcc189b5-d624-34e0-9ccc-f57979601a14/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": null,
    "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "musicbrainz_release_group_id": "fcc189b5-d624-34e0-9ccc-f57979601a14",
+   "discogs_url": "https://www.discogs.com/master/345802",
+   "cover_url": "https://coverartarchive.org/release-group/fcc189b5-d624-34e0-9ccc-f57979601a14/front-250"
   },
   {
    "artist_or_composer": null,
@@ -2362,7 +2687,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (3)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2385,7 +2710,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (2)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2431,7 +2756,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (2)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2450,15 +2775,29 @@
    "confidence": "read",
    "notes": "Different from the Levine disc of symphonies 38 and 25 on the desk stack",
    "id": "r099",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": "2f91f8f1-b115-4f9b-af76-178dc8be7a5b",
+    "release_group_id": "c89b4efd-3059-4147-b6dd-76c8e229e11b",
+    "url": "https://musicbrainz.org/release/2f91f8f1-b115-4f9b-af76-178dc8be7a5b",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Symphonien No. 36 \"Linzer\" / No. 38 \"Prager\" / mozart wolfgang amadeus mozart wiener philharmoniker wiener )"
+   },
+   "discogs": {
+    "release_id": "4823272",
+    "url": "https://www.discogs.com/release/4823272",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Deutsche Grammophon 415 962-2"
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/2f91f8f1-b115-4f9b-af76-178dc8be7a5b/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "match_flag": null,
+   "musicbrainz_release_id": "2f91f8f1-b115-4f9b-af76-178dc8be7a5b",
+   "musicbrainz_release_group_id": "c89b4efd-3059-4147-b6dd-76c8e229e11b",
+   "discogs_url": "https://www.discogs.com/release/4823272",
+   "cover_url": "https://coverartarchive.org/release/2f91f8f1-b115-4f9b-af76-178dc8be7a5b/front-250"
   },
   {
    "artist_or_composer": "Mozart, Haydn",
@@ -2500,7 +2839,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (3)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2565,15 +2904,29 @@
    "confidence": "read",
    "notes": "Catalogue number below the crop",
    "id": "r104",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": "a0725588-723e-44a6-9222-a66d24c06329",
+    "release_group_id": "f32d9729-85a6-346e-a283-1dd749474c28",
+    "url": "https://musicbrainz.org/release/a0725588-723e-44a6-9222-a66d24c06329",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Klavierkonzerte nos. 2 & 3 / rachmaninov сергей васильевич рахманинов lilya zilberstein l)"
+   },
+   "discogs": {
+    "release_id": "1366041",
+    "url": "https://www.discogs.com/release/1366041",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Deutsche Grammophon 439 930-2"
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/a0725588-723e-44a6-9222-a66d24c06329/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "match_flag": null,
+   "musicbrainz_release_id": "a0725588-723e-44a6-9222-a66d24c06329",
+   "musicbrainz_release_group_id": "f32d9729-85a6-346e-a283-1dd749474c28",
+   "discogs_url": "https://www.discogs.com/release/1366041",
+   "cover_url": "https://coverartarchive.org/release/a0725588-723e-44a6-9222-a66d24c06329/front-250"
   },
   {
    "artist_or_composer": "Schumann, Schoenberg",
@@ -2592,7 +2945,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (7)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2611,15 +2964,29 @@
    "confidence": "read",
    "notes": "Catalogue number below the crop",
    "id": "r106",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": "a31a8994-3230-4645-a6b9-810d60b3fd31",
+    "release_group_id": "fade5d70-ffa9-3f3b-a4f6-9db3c1fa70fc",
+    "url": "https://musicbrainz.org/release/a31a8994-3230-4645-a6b9-810d60b3fd31",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Symphony No.2 (Resurrection) / mahler gustav mahler edith mathis edith mathis norma procter)"
+   },
+   "discogs": {
+    "release_id": "5198735",
+    "url": "https://www.discogs.com/release/5198735",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Deutsche Grammophon 449 848-2"
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/a31a8994-3230-4645-a6b9-810d60b3fd31/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "match_flag": null,
+   "musicbrainz_release_id": "a31a8994-3230-4645-a6b9-810d60b3fd31",
+   "musicbrainz_release_group_id": "fade5d70-ffa9-3f3b-a4f6-9db3c1fa70fc",
+   "discogs_url": "https://www.discogs.com/release/5198735",
+   "cover_url": "https://coverartarchive.org/release/a31a8994-3230-4645-a6b9-810d60b3fd31/front-250"
   },
   {
    "artist_or_composer": "Dvořák",
@@ -2657,15 +3024,29 @@
    "confidence": "read",
    "notes": "Catalogue number below the crop",
    "id": "r108",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": "515da7ac-dfa7-4c30-8470-9d632e4160b3",
+    "release_group_id": "150cee09-3f6c-4e24-adab-8f01c22246a5",
+    "url": "https://musicbrainz.org/release/515da7ac-dfa7-4c30-8470-9d632e4160b3",
+    "match": "confident",
+    "basis": "title + performers + label, single release (Piano Sonatas: op. 106 “Hammerklavier” / op. 27/2 “Moonlight” / beethoven ludwig van beethoven murray perahia murray perahia)"
+   },
+   "discogs": {
+    "release_id": "11692605",
+    "url": "https://www.discogs.com/release/11692605",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Deutsche Grammophon 479 8353, Deutsche Grammophon 00289 479 8353"
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/515da7ac-dfa7-4c30-8470-9d632e4160b3/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "match_flag": null,
+   "musicbrainz_release_id": "515da7ac-dfa7-4c30-8470-9d632e4160b3",
+   "musicbrainz_release_group_id": "150cee09-3f6c-4e24-adab-8f01c22246a5",
+   "discogs_url": "https://www.discogs.com/release/11692605",
+   "cover_url": "https://coverartarchive.org/release/515da7ac-dfa7-4c30-8470-9d632e4160b3/front-250"
   },
   {
    "artist_or_composer": "Beethoven",
@@ -2703,15 +3084,29 @@
    "confidence": "read",
    "notes": "Catalogue number below the crop",
    "id": "r110",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": null,
+    "release_group_id": "3d8d8daf-f6af-4ce5-8242-a52f32d59df0",
+    "url": "https://musicbrainz.org/release-group/3d8d8daf-f6af-4ce5-8242-a52f32d59df0",
+    "match": "confident",
+    "basis": "title + performers + label; several pressings, one release group (Symphonie no. 3 avec Orgue / Danse macabre / camille saint‐saëns camille saint‐saëns daniel barenboïm dan)"
+   },
+   "discogs": {
+    "master_id": "581374",
+    "url": "https://www.discogs.com/master/581374",
+    "match": "confident",
+    "basis": "MusicBrainz release-group url relation (master); Discogs master title \"Symphonie Nr. 3 \"Orgel-Symphonie\"\""
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/3d8d8daf-f6af-4ce5-8242-a52f32d59df0/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": null,
    "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "musicbrainz_release_group_id": "3d8d8daf-f6af-4ce5-8242-a52f32d59df0",
+   "discogs_url": "https://www.discogs.com/master/581374",
+   "cover_url": "https://coverartarchive.org/release-group/3d8d8daf-f6af-4ce5-8242-a52f32d59df0/front-250"
   },
   {
    "artist_or_composer": "Evgeny Kissin",
@@ -2808,7 +3203,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no MusicBrainz release with this catalogue number and matching title/artist",
+   "match_flag": "several MusicBrainz release groups fit title/performers (2)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2831,7 +3226,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "catalogue number matches several MusicBrainz release groups",
+   "match_flag": "several MusicBrainz release groups fit title/performers (7)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -2889,7 +3284,12 @@
     "match": "confident",
     "basis": "catalogue number 427 770-2 + title/artist overlap (Sonaten opp. 27/1, 27/2 \"Mondschein\", 28 \"Pastorale\")"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "9777492",
+    "url": "https://www.discogs.com/release/9777492",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Deutsche Grammophon 427 770-2"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release/9258c57a-c66f-434e-9f2a-ed693bff7f88/front-250"
@@ -2898,7 +3298,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "9258c57a-c66f-434e-9f2a-ed693bff7f88",
    "musicbrainz_release_group_id": "ad1fb302-bc85-3bf7-9cde-6b19769c5a0c",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/9777492",
    "cover_url": "https://coverartarchive.org/release/9258c57a-c66f-434e-9f2a-ed693bff7f88/front-250"
   },
   {
@@ -2996,7 +3396,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (8)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3111,7 +3511,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "no performers or label on spine; many recordings fit",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3180,7 +3580,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (3)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3206,7 +3606,12 @@
     "match": "confident",
     "basis": "catalogue number SMA 25 006-D/1-3 + title/artist overlap (Die Zauberflöte)"
    },
-   "discogs": null,
+   "discogs": {
+    "release_id": "10222228",
+    "url": "https://www.discogs.com/release/10222228",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno Decca SMA 25006-D/1-3"
+   },
    "cover": {
     "source": "coverartarchive",
     "url": "https://coverartarchive.org/release-group/c7f31ac3-d344-3874-b0cc-73792c09eeff/front-250"
@@ -3215,7 +3620,7 @@
    "match_flag": null,
    "musicbrainz_release_id": "ea9efcff-e13d-42e0-95a4-45e55e808c3a",
    "musicbrainz_release_group_id": "c7f31ac3-d344-3874-b0cc-73792c09eeff",
-   "discogs_url": null,
+   "discogs_url": "https://www.discogs.com/release/10222228",
    "cover_url": "https://coverartarchive.org/release-group/c7f31ac3-d344-3874-b0cc-73792c09eeff/front-250"
   },
   {
@@ -3235,7 +3640,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (6)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3281,7 +3686,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "Furtwängler Walküre exists as 1954 studio and live sets; spine gives no label",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3350,7 +3755,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "Callas recorded La Gioconda twice (1952 Cetra, 1959 EMI); spine does not say which",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3373,7 +3778,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (3)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3392,15 +3797,24 @@
    "confidence": "read",
    "notes": null,
    "id": "r138",
-   "musicbrainz": null,
+   "musicbrainz": {
+    "release_id": "725fe241-47ce-4860-a596-7be9eb6a9b34",
+    "release_group_id": "4e87fb2a-8977-4dc9-a885-d5f1193ba34c",
+    "url": "https://musicbrainz.org/release/725fe241-47ce-4860-a596-7be9eb6a9b34",
+    "match": "confident",
+    "basis": "title + performers, single release (Otello / verdi giuseppe verdi del monaco mario del monaco tebaldi ren)"
+   },
    "discogs": null,
-   "cover": null,
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release-group/4e87fb2a-8977-4dc9-a885-d5f1193ba34c/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
+   "match_flag": null,
+   "musicbrainz_release_id": "725fe241-47ce-4860-a596-7be9eb6a9b34",
+   "musicbrainz_release_group_id": "4e87fb2a-8977-4dc9-a885-d5f1193ba34c",
    "discogs_url": null,
-   "cover_url": null
+   "cover_url": "https://coverartarchive.org/release-group/4e87fb2a-8977-4dc9-a885-d5f1193ba34c/front-250"
   },
   {
    "artist_or_composer": "Verdi",
@@ -3419,7 +3833,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "Domingo recorded Otello several times; spine gives no conductor or label",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3442,7 +3856,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "Karajan recorded Il trovatore more than once; spine gives no label or cast",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3461,13 +3875,19 @@
    "confidence": "uncertain",
    "notes": "Title and orchestra line are on a worn spine and were not equally sharp",
    "id": "r141",
-   "musicbrainz": null,
+   "musicbrainz": {
+    "release_id": "de277cbb-2950-4542-9049-05edcb43f117",
+    "release_group_id": "d5901454-5b26-36b6-8844-7cec9550a83f",
+    "url": "https://musicbrainz.org/release/de277cbb-2950-4542-9049-05edcb43f117",
+    "match": "confident",
+    "basis": "title + performers, single release (Tosca / puccini giacomo puccini plácido domingo plácido domingo cath)"
+   },
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
+   "match_flag": null,
+   "musicbrainz_release_id": "de277cbb-2950-4542-9049-05edcb43f117",
+   "musicbrainz_release_group_id": "d5901454-5b26-36b6-8844-7cec9550a83f",
    "discogs_url": null,
    "cover_url": null
   },
@@ -3511,7 +3931,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "Karajan recorded the B minor Mass more than once; spine gives no label or cast",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3553,15 +3973,29 @@
    "confidence": "read",
    "notes": "LP, not the Karajan CD of the same opera",
    "id": "r145",
-   "musicbrainz": null,
-   "discogs": null,
-   "cover": null,
+   "musicbrainz": {
+    "release_id": "617989b8-5dd1-4033-80dd-89cbc3c0c334",
+    "release_group_id": "4297f49e-0d9c-3fe5-8c07-6cb7a5c356e8",
+    "url": "https://musicbrainz.org/release/617989b8-5dd1-4033-80dd-89cbc3c0c334",
+    "match": "confident",
+    "basis": "title + performers, single release (La bohème / puccini giacomo puccini pavarotti luciano pavarotti freni mi)"
+   },
+   "discogs": {
+    "release_id": "3639291",
+    "url": "https://www.discogs.com/release/3639291",
+    "match": "confident",
+    "basis": "MusicBrainz release url relation; Discogs API confirms label/catno London Records OSA 1299"
+   },
+   "cover": {
+    "source": "coverartarchive",
+    "url": "https://coverartarchive.org/release/617989b8-5dd1-4033-80dd-89cbc3c0c334/front-250"
+   },
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
-   "musicbrainz_release_id": null,
-   "musicbrainz_release_group_id": null,
-   "discogs_url": null,
-   "cover_url": null
+   "match_flag": null,
+   "musicbrainz_release_id": "617989b8-5dd1-4033-80dd-89cbc3c0c334",
+   "musicbrainz_release_group_id": "4297f49e-0d9c-3fe5-8c07-6cb7a5c356e8",
+   "discogs_url": "https://www.discogs.com/release/3639291",
+   "cover_url": "https://coverartarchive.org/release/617989b8-5dd1-4033-80dd-89cbc3c0c334/front-250"
   },
   {
    "artist_or_composer": "Gotan Project",
@@ -3580,7 +4014,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "several MusicBrainz release groups fit title/performers (7)",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,
@@ -3672,7 +4106,7 @@
    "discogs": null,
    "cover": null,
    "reviews": [],
-   "match_flag": "no readable catalogue number; title/label/performers not enough for an unambiguous match",
+   "match_flag": "Serafin conducted two Callas Normas (1954, 1960); spine does not say which",
    "musicbrainz_release_id": null,
    "musicbrainz_release_group_id": null,
    "discogs_url": null,

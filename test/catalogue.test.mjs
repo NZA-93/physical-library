@@ -36,8 +36,15 @@ test("catalogue keeps 161 rows and the flat reference fields", () => {
     assert.ok("match_flag" in row);
     assert.ok(Array.isArray(row.reviews));
   }
-  assert.deepEqual(coverage(rows), { covers: 25, references: 25, reviews: 0 });
-  assert.equal(coverageLine(coverage(rows)), "25 covers · 25 with a reference · 0 with a review");
+  const withMusicBrainz = rows.filter(
+    (row) => row.musicbrainz_release_id || row.musicbrainz_release_group_id,
+  );
+  assert.equal(withMusicBrainz.length, 52);
+  assert.equal(withMusicBrainz.filter((row) => row.discogs_url).length, 34);
+  assert.equal(rows.filter((row) => row.discogs_url && !row.musicbrainz_release_id && !row.musicbrainz_release_group_id).length, 0);
+  assert.equal(rows.filter((row) => reviewLinks(row).length > 0).length, 5);
+  assert.deepEqual(coverage(rows), { covers: 49, references: 52, reviews: 5 });
+  assert.equal(coverageLine(coverage(rows)), "49 covers · 52 with a reference · 5 with a review");
 });
 
 test("box set notes name CD or LP, and that carrier is what the filters use", () => {
